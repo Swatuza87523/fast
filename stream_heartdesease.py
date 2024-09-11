@@ -54,7 +54,7 @@ color: #721c24;
 """
 
 st.markdown(page,unsafe_allow_html=True)
-d=pd.read_csv("E:\Python learning\Heart desease dataset\heart-disease.csv")
+d=pd.read_csv("heart-disease.csv")
 dfh=d.copy()
 st.title(":blue[Heart Desease Prediction Exploratory Data Analysis]")
 st.image("E:\Python learning\Heart desease dataset\output.png",caption="Chest Pain Levels Analysis on the basis of Gender and Age")
